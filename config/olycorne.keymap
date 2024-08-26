@@ -23,7 +23,7 @@
             quick-tap-ms = <200>;
             bindings = <&kp>, <&kp>;
 
-            hold-trigger-key-positions = <6 7 8 9 10 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41>;    // <---[[right-hand keys]]
+            hold-trigger-key-positions = <6 7 8 9 10 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41 38>;    // <---[[right-hand keys]]
         };
 
         rh_pht: rh_pht {
@@ -105,13 +105,11 @@
                 <&macro_release>,
                 <&kp RIGHT_SHIFT>,
                 <&macro_press>,
-                <&kp LCTRL>,
-                <&kp LEFT_SHIFT>,
+                <&kp LCTRL &kp LEFT_SHIFT>,
                 <&macro_tap>,
                 <&macro_param_1to1 &kp MACRO_PLACEHOLDER>,
                 <&macro_release>,
-                <&kp LEFT_SHIFT>,
-                <&kp LCTRL>,
+                <&kp LEFT_SHIFT &kp LCTRL>,
                 <&macro_press>,
                 <&kp RIGHT_SHIFT>;
 
