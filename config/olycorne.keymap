@@ -192,10 +192,10 @@
 
         layer_6 {
             bindings = <
-&none  &none  &kp W  &none    &none   &none        &none  &none  &none  &none  &none  &none
-&none  &kp A  &kp S  &kp D    &none   &none        &none  &none  &none  &none  &none  &tog 6
-&none  &none  &none  &none    &none   &none        &none  &none  &none  &none  &none  &none
-                     &kp ESC  &kp F5  &kp SPACE    &none  &none  &none
+&kp ESCAPE  &none   &kp W   &none    &none   &none        &none  &none  &none  &none  &none  &none
+&none       &kp A   &kp S   &kp D    &none   &none        &none  &none  &none  &none  &none  &tog 6
+&none       &kp N1  &kp N2  &kp N3   &kp N4  &kp N5       &none  &none  &none  &none  &none  &none
+                            &kp ESC  &kp F5  &kp SPACE    &none  &none  &none
             >;
         };
     };
