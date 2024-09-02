@@ -101,7 +101,7 @@
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings =
-                <&macro_wait_time 50>,
+                <&macro_wait_time 55>,
                 <&macro_release>,
                 <&kp RIGHT_SHIFT>,
                 <&macro_press>,
@@ -109,9 +109,7 @@
                 <&macro_tap>,
                 <&macro_param_1to1 &kp MACRO_PLACEHOLDER>,
                 <&macro_release>,
-                <&kp LEFT_SHIFT &kp LCTRL>,
-                <&macro_press>,
-                <&kp RIGHT_SHIFT>;
+                <&kp LEFT_SHIFT &kp LCTRL>;
 
             label = "CTRLSHIFTMOD";
         };
