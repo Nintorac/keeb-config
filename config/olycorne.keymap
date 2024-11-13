@@ -156,10 +156,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL   &kp AT    &kp HASH       &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK   &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &kp TILDE  &kp PIPE  &kp BACKSLASH  &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT    &kp RBKT  &kp BSLH  &kp GRAVE
-&trans     &trans     &trans    &trans         &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC    &kp RBRC  &kp PIPE  &kp TILDE
-                                &trans         &trans    &trans       &trans     &trans     &kp DELETE
+&trans  &kp EXCL  &kp AT     &kp HASH   &kp DLLR       &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK   &kp LPAR      &kp RPAR  &trans
+&trans  &trans    &kp GRAVE  &kp TILDE  &kp BACKSLASH  &trans       &trans     &kp SLASH  &kp PIPE    &kp QUESTION  &trans    &trans
+&trans  &trans    &trans     &trans     &trans         &trans       &trans     &trans     &trans      &trans        &trans    &trans
+                             &trans     &trans         &trans       &trans     &trans     &kp DELETE
             >;
         };
 
@@ -192,10 +192,10 @@
 
         layer_6 {
             bindings = <
-&kp ESCAPE  &none   &kp W   &none    &none   &none        &none  &none  &none  &none  &none  &none
-&none       &kp A   &kp S   &kp D    &none   &none        &none  &none  &none  &none  &none  &tog 6
-&none       &kp N1  &kp N2  &kp N3   &kp N4  &kp N5       &none  &none  &none  &none  &none  &none
-                            &kp ESC  &kp F5  &kp SPACE    &none  &none  &none
+&none  &none  &kp W  &none    &none   &none        &none  &none  &none  &none  &none  &none
+&none  &kp A  &kp S  &kp D    &none   &none        &none  &none  &none  &none  &none  &tog 6
+&none  &none  &none  &none    &none   &none        &none  &none  &none  &none  &none  &none
+                     &kp ESC  &kp F5  &kp SPACE    &none  &none  &none
             >;
         };
     };
